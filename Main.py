@@ -1,5 +1,5 @@
 from typing import List
-def selectionSort(array, size) -> List[int]:
+def selectionSort(array, size) List[int]:
   for step in range(size):
     min_idx = step
     for i in range(step + 1, size):
