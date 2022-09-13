@@ -9,8 +9,8 @@ def selectionSort(array, size) List[int]:
   return array
 
 input_data = input()
-data = []
-for item in input_data.split(', '):
+data=[]
+for item in input_data.split(','):
   if item.isnumeric():
     data.append(int(item))
   elif item.lstrip("-").isnumeric():
